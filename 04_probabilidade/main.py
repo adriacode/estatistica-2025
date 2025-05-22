@@ -10,11 +10,7 @@ usuarios = ((df.groupby("idUsuario").agg({
                 "qtdPontos": "sum"
             }).reset_index()))
 
-usuarios
-
 # %%
-
-
 
 def intervalo(sample, alpha=0.05):
 
@@ -43,8 +39,9 @@ stats["check"] = (stats["verdadeiro"] > stats["inf"]) & (stats["verdadeiro"] < s
 stats["check"].mean()
 
 # %%
-
 import matplotlib.pyplot as plt
+
+plt.figure(dpi=400, figsize=(6,6))
 
 for i in range(100):
     data = stats.iloc[i]
@@ -52,8 +49,9 @@ for i in range(100):
     plt.plot( data[['inf', 'sup']], [i,i], 'o--', color=color, alpha=0.5)
 
 plt.vlines(data['verdadeiro'].max(), -1, i+1, color='black', alpha=0.5)
-plt.xlabel("Valor esperado")
+plt.xlabel("Limites do Intervalo")
 plt.ylabel("Amostra")
 plt.title("Intervalos de Confiança")
 plt.grid()
 plt.show()
+# %%
