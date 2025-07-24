@@ -3,7 +3,9 @@
 Repositório com anotações e exercícios do curso de **Estatística** com o Teomewhy no YouTube.
 
 🔗 Canal do curso: [Teomewhy no YouTube](https://www.youtube.com/@Teomewhy)
+
 🔗 Apresentação PPT:[Apresentação](https://docs.google.com/presentation/d/1Zfwk5sxpyr98oQlz2GWd_kj8EHuDeRg4tcY7T00Gy3I/edit?usp=sharing)
+
 🔗 Dados: [Dados](https://docs.google.com/spreadsheets/d/1lwlbNriQbpEwdwQ1FIhPYs0IosvJmtJLhU46LnJxczg/edit?usp=sharing)
 
 ## 🧠 Tópicos estudados
